@@ -1,0 +1,252 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>[Your Name] — Software Engineer</title>
+  <meta name="description" content="Personal website of [Your Name] — software engineer. Portfolio, skills, projects, education, and contact." />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="container header-inner">
+      <a class="brand" href="#home">[Your Name]</a>
+
+      <button id="nav-toggle" class="nav-toggle" aria-controls="primary-navigation" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="hamburger"></span>
+      </button>
+
+      <nav id="primary-navigation" class="primary-nav" aria-label="Primary">
+        <ul class="nav-list">
+          <li><a href="#home">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#skills">Skills</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#education">Education</a></li>
+          <li><a href="#certifications">Certifications</a></li>
+          <li><a href="#experience">Experience</a></li>
+          <li><a href="#contact">Contact</a></li>
+          <li><a class="btn-outline" href="assets/CV.pdf" download>Download CV</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <!-- Home / Hero -->
+    <section id="home" class="hero" aria-labelledby="hero-heading">
+      <div class="container hero-grid">
+        <div class="hero-content">
+          <h1 id="hero-heading">Hi, I’m Sipheishle . I build elegant and reliable software.</h1>
+          <p class="lead">Senior Software Engineer • Full-Stack Developer • Passionate about clean code, UX, and scalable systems.</p>
+          <div class="hero-ctas">
+            <a class="btn-primary" href="#projects">View Projects</a>
+            <a class="btn-secondary" href="mailto:youremail@example.com">Contact Me</a>
+          </div>
+          <ul class="hero-social">
+            <li><a href="mailto:youremail@example.com" aria-label="Email">✉️</a></li>
+            <li><a href="https://github.com/your-username" target="_blank" rel="noopener" aria-label="GitHub">GitHub</a></li>
+            <li><a href="https://linkedin.com/in/your-profile" target="_blank" rel="noopener" aria-label="LinkedIn">LinkedIn</a></li>
+          </ul>
+        </div>
+
+        <div class="hero-image" aria-hidden="true">
+          <!-- Replace placeholder.jpg with your photo in assets/ -->
+          <img src="assets/placeholder.jpg" alt="Portrait of [Your Name]" />
+        </div>
+      </div>
+    </section>
+
+    <!-- About -->
+    <section id="about" class="section" aria-labelledby="about-heading">
+      <div class="container">
+        <h2 id="about-heading">About Me</h2>
+        <p>I’m a software engineer with X years of experience building web applications, APIs, and tooling. I enjoy solving complex problems, mentoring teammates, and improving product reliability and user experience.</p>
+        <div class="about-grid">
+          <div>
+            <h3>Interests</h3>
+            <p>Distributed systems, performance optimization, developer experience, accessible UX, and mentoring.</p>
+          </div>
+          <div>
+            <h3>Currently</h3>
+            <p>Working on full-stack features at [Company]. Open to collaboration and new opportunities.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Skills -->
+    <section id="skills" class="section alt" aria-labelledby="skills-heading">
+      <div class="container">
+        <h2 id="skills-heading">Skills</h2>
+
+        <div class="skills-grid">
+          <div class="skill-card">
+            <h4>Technical Skills</h4>
+            <ul class="tech-list">
+              <li><strong>Languages:</strong> JavaScript/TypeScript, Python, Go</li>
+              <li><strong>Frontend:</strong> React, Next.js, HTML, CSS</li>
+              <li><strong>Backend:</strong> Node.js, Express, Django, REST, GraphQL</li>
+              <li><strong>Databases:</strong> PostgreSQL, MongoDB, Redis</li>
+              <li><strong>Cloud & DevOps:</strong> AWS, Docker, Kubernetes, CI/CD</li>
+            </ul>
+          </div>
+
+          <div class="skill-card">
+            <h4>Soft Skills</h4>
+            <ul class="soft-list">
+              <li>Collaboration & Communication</li>
+              <li>Mentoring & Team Leadership</li>
+              <li>Product-minded Engineering</li>
+              <li>Problem Solving & Critical Thinking</li>
+            </ul>
+          </div>
+
+          <div class="skill-card">
+            <h4>Tools & Workflow</h4>
+            <ul class="tool-list">
+              <li>Git, GitHub, CI/CD pipelines</li>
+              <li>Testing: Jest, PyTest</li>
+              <li>Design & Prototyping: Figma</li>
+              <li>Monitoring: Prometheus, Grafana, Sentry</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Projects -->
+    <section id="projects" class="section" aria-labelledby="projects-heading">
+      <div class="container">
+        <h2 id="projects-heading">Selected Projects</h2>
+        <div class="projects-grid">
+          <article class="project-card">
+            <h3>Project One — Web App</h3>
+            <p class="muted">A fast, accessible web application for managing X. Focused on performance and offline support.</p>
+            <p><strong>Highlights:</strong> Responsive PWA, 95% Lighthouse score, client-side caching</p>
+            <p class="project-tech">Tech: React, TypeScript, Service Workers, AWS Lambda</p>
+            <p><a href="https://github.com/your-username/project-one" target="_blank" rel="noopener">View on GitHub</a></p>
+          </article>
+
+          <article class="project-card">
+            <h3>Project Two — API / Microservice</h3>
+            <p class="muted">A resilient microservice for processing large datasets and providing analytics.</p>
+            <p><strong>Highlights:</strong> Horizontal scaling, metrics & alerts, automated deployments</p>
+            <p class="project-tech">Tech: Go, PostgreSQL, Docker, Kubernetes</p>
+            <p><a href="https://github.com/your-username/project-two" target="_blank" rel="noopener">View on GitHub</a></p>
+          </article>
+
+          <article class="project-card">
+            <h3>Project Three — Internal Tool</h3>
+            <p class="muted">Developer tooling and CI integrations to speed up release workflows and reduce errors.</p>
+            <p><strong>Highlights:</strong> Reduced release time by 60%, automated checks, better observability</p>
+            <p class="project-tech">Tech: Node.js, GraphQL, GitHub Actions</p>
+            <p><a href="https://github.com/your-username/project-three" target="_blank" rel="noopener">View on GitHub</a></p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- Education -->
+    <section id="education" class="section alt" aria-labelledby="education-heading">
+      <div class="container">
+        <h2 id="education-heading">Education</h2>
+        <div class="timeline">
+          <div class="timeline-item">
+            <h4>B.S. in Computer Science</h4>
+            <p class="muted">University of Example — 20XX–20YY</p>
+            <p>Relevant coursework: Algorithms, Operating Systems, Databases, Software Engineering.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Certifications -->
+    <section id="certifications" class="section" aria-labelledby="certifications-heading">
+      <div class="container">
+        <h2 id="certifications-heading">Certifications</h2>
+        <ul class="cert-list">
+          <li>AWS Certified Solutions Architect — Associate</li>
+          <li>Certified Kubernetes Application Developer (CKAD)</li>
+          <li>Professional Cloud Architect (optional)</li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- Experience -->
+    <section id="experience" class="section alt" aria-labelledby="experience-heading">
+      <div class="container">
+        <h2 id="experience-heading">Work Experience</h2>
+
+        <div class="timeline">
+          <div class="timeline-item">
+            <h4>Senior Software Engineer — ExampleCorp</h4>
+            <p class="muted">20YY–Present</p>
+            <ul>
+              <li>Led a cross-functional team building features used by 100k+ customers.</li>
+              <li>Designed and migrated services to microservices architecture and improved performance by 40%.</li>
+              <li>Mentored junior engineers and improved onboarding documentation.</li>
+            </ul>
+          </div>
+
+          <div class="timeline-item">
+            <h4>Software Engineer — Startup Inc</h4>
+            <p class="muted">20XX–20YY</p>
+            <ul>
+              <li>Built customer-facing web applications and backend services.</li>
+              <li>Implemented robust testing and CI to reduce regressions.</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact -->
+    <section id="contact" class="section contact" aria-labelledby="contact-heading">
+      <div class="container">
+        <h2 id="contact-heading">Contact</h2>
+        <p>Feel free to reach out — I’m available for freelance work, full-time roles, and collaborations.</p>
+
+        <div class="contact-grid">
+          <div class="contact-card">
+            <h4>Get in touch</h4>
+            <p>Email: <a href="mailto:youremail@example.com">youremail@example.com</a></p>
+            <p>GitHub: <a href="https://github.com/your-username" target="_blank" rel="noopener">github.com/your-username</a></p>
+            <p>LinkedIn: <a href="https://linkedin.com/in/your-profile" target="_blank" rel="noopener">linkedin.com/in/your-profile</a></p>
+            <p><a class="btn-outline" href="assets/CV.pdf" download>Download CV</a></p>
+          </div>
+
+          <form class="contact-form" action="mailto:youremail@example.com" method="post" enctype="text/plain">
+            <label>
+              <span>Name</span>
+              <input type="text" name="name" required>
+            </label>
+            <label>
+              <span>Email</span>
+              <input type="email" name="email" required>
+            </label>
+            <label>
+              <span>Message</span>
+              <textarea name="message" rows="6" required></textarea>
+            </label>
+            <div>
+              <button type="submit" class="btn-primary">Send</button>
+            </div>
+            <p class="muted small">Note: This form uses mailto and will open your email client. Replace with a backend endpoint or service (Formspree, Netlify Forms, etc.) for production.</p>
+          </form>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <p>© <span id="year"></span> [Your Name]. Built with care.</p>
+      <p><a href="https://github.com/your-username" target="_blank" rel="noopener">GitHub</a> · <a href="https://linkedin.com/in/your-profile" target="_blank" rel="noopener">LinkedIn</a></p>
+    </div>
+  </footer>
+
+  <script src="script.js" defer></script>
+</body>
+</html>
